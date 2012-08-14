@@ -8,6 +8,12 @@ syntax on
 " Enable file type detection (see vimdoc.sourceforge.net/htmldoc/filetype.html)
 filetype plugin indent on
 
+" Indentation settings
+set expandtab
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+
 " Enable ctags for scala. This also requires the following in your ~/.ctags
 " file:
 " --langdef=Scala
