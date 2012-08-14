@@ -47,3 +47,4 @@ let g:tagbar_type_scala = {
         \ 'm:methods'
     \ ]
     \ }
+nmap <F8> :TagbarToggle<CR>
