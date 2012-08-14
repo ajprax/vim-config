@@ -54,3 +54,12 @@ let g:tagbar_type_scala = {
     \ ]
     \ }
 nmap <F8> :TagbarToggle<CR>
+
+" NERDTree
+nmap <F9> :NERDTreeToggle<CR>
+
+" Resizing windows
+map <C-h> <C-w><
+map <C-l> <C-w>>
+map <C-j> <C-w>+
+map <C-k> <C-w>-
