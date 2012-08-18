@@ -14,6 +14,9 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 
+" Search settings
+set hlsearch
+
 " Enable ctags for scala. This also requires the following in your ~/.ctags
 " file:
 " --langdef=Scala
