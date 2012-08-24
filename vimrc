@@ -56,6 +56,7 @@ let g:tagbar_type_scala = {
         \ 'm:methods'
     \ ]
     \ }
+set tags+=~/.tags
 nmap <F8> :TagbarToggle<CR>
 
 " NERDTree
