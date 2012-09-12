@@ -17,6 +17,10 @@ set softtabstop=2
 " Search settings
 set hlsearch
 
+" Enable mouse support in terminal (the 'a' stands for enable mouse in all
+" modes
+set mouse=a
+
 " Enable ctags for scala. This also requires the following in your ~/.ctags
 " file:
 " --langdef=Scala
