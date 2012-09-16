@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+tags_file="${HOME}/.tags"
+
+# Remove the old tags file if it exists.
+if [ -f $tags_file ]; then
+  echo "Deleting old tags file $tags_file"
+  rm $tags_file
+fi
+
+# Generate the tags file using exuberant-ctags
+echo "Creating new tags file $tags_file from sources in $(pwd)"
+find "$(pwd)" -name *.java | xargs ctags -a -f $tags_file
+find "$(pwd)" -name *.scala | xargs ctags -a -f $tags_file
