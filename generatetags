@@ -10,5 +10,5 @@ fi
 
 # Generate the tags file using exuberant-ctags
 echo "Creating new tags file $tags_file from sources in $(pwd)"
-find "$(pwd)" -name *.java | xargs ctags -a -f $tags_file
-find "$(pwd)" -name *.scala | xargs ctags -a -f $tags_file
+find "$(pwd)" -name *.java | xargs ctags -a -f $tags_file --verbose
+find "$(pwd)" -name *.scala | xargs ctags -a -f $tags_file --verbose
