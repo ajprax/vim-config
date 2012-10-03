@@ -19,6 +19,7 @@ set nu
 
 " Search settings
 set hlsearch
+set incsearch
 
 " Enable mouse support in terminal (the 'a' stands for enable mouse in all
 " modes
