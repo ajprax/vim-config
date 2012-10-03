@@ -16,9 +16,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/vim-maven"]
-	path = bundle/vim-maven
-	url = git@github.com:robotoer/vim-maven.git
 [submodule "bundle/vim-trailing-whitespace"]
 	path = bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "bundle/vim-maven-plugin"]
+	path = bundle/vim-maven-plugin
+	url = https://github.com/mikelue/vim-maven-plugin.git
