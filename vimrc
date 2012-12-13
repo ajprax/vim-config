@@ -52,3 +52,9 @@ map <C-h> <C-w><
 map <C-l> <C-w>>
 map <C-j> <C-w>+
 map <C-k> <C-w>-
+
+" Maven compilation
+map <F4> :Mvn clean<CR>:redr!<CR>
+map <F5> :Mvn test<CR>:redr!<CR>
+map <F6> :Mvn verify<CR>:redr!<CR>
+map <F7> :Mvn install<CR>:redr!<CR>
