@@ -22,3 +22,6 @@
 [submodule "bundle/vim-maven-plugin"]
 	path = bundle/vim-maven-plugin
 	url = https://github.com/mikelue/vim-maven-plugin.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

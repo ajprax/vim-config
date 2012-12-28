@@ -4,6 +4,8 @@ call pathogen#infect()
 
 " Ensure syntax highlighting is enabled
 syntax on
+set background=dark
+colorscheme solarized
 
 " Enable file type detection (see vimdoc.sourceforge.net/htmldoc/filetype.html)
 filetype plugin indent on
