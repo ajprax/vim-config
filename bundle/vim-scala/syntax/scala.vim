@@ -1,1 +1,0 @@
-/usr/local/scala-2.9.1.final/misc/scala-tool-support/vim/syntax/scala.vim
