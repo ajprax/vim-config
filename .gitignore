@@ -1,1 +1,4 @@
 .netrwhist
+
+# Ignore eclim bundle, it should get installed by ant.
+bundle/eclim
