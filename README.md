@@ -22,3 +22,7 @@ For the lazy the following can be run instead:
 ```bash
 bash <(curl -s https://raw.github.com/robotoer/vim-config/master/install.sh)
 ```
+
+If you are using gnome-terminal and want the solarized color theme that this
+vim configuration uses: https://github.com/sigurdga/gnome-terminal-colors-solarized.
+For more information about the solarized color theme: http://ethanschoonover.com/solarized
