@@ -27,6 +27,9 @@ set incsearch
 " modes
 set mouse=a
 
+" Enable status line even with only one buffer open
+set laststatus=2
+
 " Enable ctags for scala and tagbar.
 let g:tagbar_type_scala = {
     \ 'ctagstype' : 'Scala',
