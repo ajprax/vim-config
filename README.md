@@ -14,7 +14,7 @@ ln -s ~/.vim/generatetags ~/bin/generatetags
 
 # Eclim setup:
 cd ~/.vim/eclim
-ant -Dvim.files=~/.vim/bundle/eclim -Declipse.home=/your/eclipse/home/dir
+ant -Dvim.files=$HOME/.vim/bundle/eclim -Declipse.home=/your/eclipse/home/dir
 ```
 
 For the lazy the following can be run instead:
