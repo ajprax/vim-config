@@ -63,3 +63,8 @@ map <F4> :Mvn clean<CR>:redr!<CR>
 map <F5> :Mvn test<CR>:redr!<CR>
 map <F6> :Mvn verify<CR>:redr!<CR>
 map <F7> :Mvn install<CR>:redr!<CR>
+
+" Eclim keybindings
+nmap <C-i> :JavaImport<CR>
+nmap <C-c> :JavaCorrect<CR>
+nmap <F3> :JavaSearchContext<CR>
