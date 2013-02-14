@@ -31,3 +31,6 @@
 [submodule "eclim"]
 	path = eclim
 	url = git://github.com/ervandew/eclim.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git@github.com:Lokaltog/vim-powerline
