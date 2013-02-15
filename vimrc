@@ -68,3 +68,8 @@ map <F7> :Mvn install<CR>:redr!<CR>
 nmap <C-i> :JavaImport<CR>
 nmap <C-c> :JavaCorrect<CR>
 nmap <F3> :JavaSearchContext<CR>
+
+" Markdown
+au BufRead,BufNewFile *.md set filetype=markdown
+
+set t_Co=256
