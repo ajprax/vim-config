@@ -68,6 +68,11 @@ map <F7> :Mvn install<CR>:redr!<CR>
 nmap <C-i> :JavaImport<CR>
 nmap <C-c> :JavaCorrect<CR>
 nmap <F3> :JavaSearchContext<CR>
+if has("gui_running")
+  inoremap <C-Space> <C-u><C-x>
+else
+  inoremap <Nul> <C-u><C-x>
+endif
 
 " Markdown
 au BufRead,BufNewFile *.md set filetype=markdown
