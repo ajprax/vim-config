@@ -26,6 +26,7 @@ set incsearch
 " Enable mouse support in terminal (the 'a' stands for enable mouse in all
 " modes
 set mouse=a
+set ttymouse=urxvt " Fix for mouse clicks past col 223 while using rxvt-unicode
 
 " Enable status line even with only one buffer open
 set laststatus=2
