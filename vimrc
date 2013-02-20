@@ -70,9 +70,9 @@ nmap <C-i> :JavaImport<CR>
 nmap <C-c> :JavaCorrect<CR>
 nmap <F3> :JavaSearchContext<CR>
 if has("gui_running")
-  inoremap <C-Space> <C-u><C-x>
+  inoremap <C-Space> <C-x><C-u>
 else
-  inoremap <Nul> <C-u><C-x>
+  inoremap <Nul> <C-x><C-u>
 endif
 
 " Markdown
