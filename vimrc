@@ -79,3 +79,7 @@ endif
 au BufRead,BufNewFile *.md set filetype=markdown
 
 set t_Co=256
+
+" Set default splits to vertical, not horizontal.
+let g:EclimBuffersDefaultAction = 'vs'
+let g:EclimDefaultFileOpenAction = 'vs'
