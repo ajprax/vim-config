@@ -37,3 +37,9 @@
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
 	url = git@github.com:tpope/vim-eunuch.git
+[submodule "bundle/webapi-vim"]
+	path = bundle/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git@github.com:mattn/gist-vim.git
