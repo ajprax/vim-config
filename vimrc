@@ -83,3 +83,5 @@ set t_Co=256
 " Set default splits to vertical, not horizontal.
 let g:EclimBuffersDefaultAction = 'vs'
 let g:EclimDefaultFileOpenAction = 'vs'
+
+set guifont=Ubuntu\ Mono\ 9
