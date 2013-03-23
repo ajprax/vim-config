@@ -19,6 +19,9 @@ set softtabstop=2
 " Enable line numbers
 set nu
 
+" Display column 100
+set colorcolumn=100
+
 " Search settings
 set hlsearch
 set incsearch
