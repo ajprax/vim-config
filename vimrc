@@ -88,3 +88,6 @@ let g:EclimBuffersDefaultAction = 'vs'
 let g:EclimDefaultFileOpenAction = 'vs'
 
 set guifont=Ubuntu\ Mono\ 9
+
+" Settings for evervim
+let g:evervim_devtoken='S=s212:U=171f68a:E=1450b7fd776:C=13db3ceab79:P=1cd:A=en-devtoken:V=2:H=47867f1b30e29657bcaa1997b40f3aaa'
