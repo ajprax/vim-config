@@ -46,6 +46,9 @@
 [submodule "bundle/logpad.vim"]
 	path = bundle/logpad.vim
 	url = git@github.com:vim-scripts/logpad.vim.git
-[submodule "bundle/evervim"]
-	path = bundle/evervim
-	url = git@github.com:kakkyz81/evervim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe

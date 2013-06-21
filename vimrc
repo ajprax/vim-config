@@ -29,7 +29,7 @@ set incsearch
 " Enable mouse support in terminal (the 'a' stands for enable mouse in all
 " modes
 set mouse=a
-set ttymouse=urxvt " Fix for mouse clicks past col 223 while using rxvt-unicode
+"set ttymouse=urxvt " Fix for mouse clicks past col 223 while using rxvt-unicode
 
 " Enable status line even with only one buffer open
 set laststatus=2
@@ -89,11 +89,11 @@ let g:EclimDefaultFileOpenAction = 'vs'
 
 set guifont=Ubuntu\ Mono\ 9
 
-" Settings for evervim
-let g:evervim_devtoken='S=s212:U=171f68a:E=1450b7fd776:C=13db3ceab79:P=1cd:A=en-devtoken:V=2:H=47867f1b30e29657bcaa1997b40f3aaa'
-
 " Keybindings for using the external clipboard
-nnoremap <C-y> "+y
-vnoremap <C-y> "+y
-nnoremap <C-p> "+gP
-vnoremap <C-p> "+gP
+nnoremap <F10> "+y
+vnoremap <F10> "+y
+nnoremap <F11> "+gP
+vnoremap <F11> "+gP
+
+" Make YouCompleteMe and eclim play nice together
+let g:EclimCompletionMethod = 'omnifunc'
