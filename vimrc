@@ -97,3 +97,6 @@ vnoremap <F11> "+gP
 
 " Make YouCompleteMe and eclim play nice together
 let g:EclimCompletionMethod = 'omnifunc'
+
+" Configure syntastic
+let g:syntastic_python_checkers=['flake8']
