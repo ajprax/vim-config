@@ -52,3 +52,9 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe
+[submodule "bundle/avro-vim"]
+	path = bundle/avro-vim
+	url = git@github.com:dln/avro-vim.git
+[submodule "bundle/dart-vim-plugin"]
+	path = bundle/dart-vim-plugin
+	url = git@github.com:dart-lang/dart-vim-plugin.git
