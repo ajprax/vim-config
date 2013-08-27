@@ -100,3 +100,6 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 " Configure syntastic
 let g:syntastic_python_checkers=['flake8']
+
+" Automatically use avro-vim
+au BufRead,BufNewFile *.avdl setlocal filetype=avro-idl
