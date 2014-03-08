@@ -18,8 +18,3 @@ ln -s ~/.vim/ctagsrc ~/.ctags
 echo "ln -s ~/.vim/generatetags ~/bin/generatetags"
 ln -s ~/.vim/generatetags ~/bin/generatetags
 echo
-
-# Eclim setup:
-echo "If you want to use eclim, you must run the following commands:"
-echo "  cd ~/.vim/eclim"
-echo "  ant -Dvim.files=$HOME/.vim/bundle/eclim -Declipse.home=/your/eclipse/home/dir"
