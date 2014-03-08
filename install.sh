@@ -6,8 +6,12 @@ sudo apt-get install exuberant-ctags
 echo
 
 # Get the repository:
-echo "git clone --recursive https://github.com/robotoer/vim-config.git ~/.vim"
-git clone --recursive https://github.com/robotoer/vim-config.git ~/.vim
+echo "git clone https://github.com/robotoer/vim-config.git ~/.vim"
+git clone https://github.com/robotoer/vim-config.git ~/.vim
+echo "mkdir ~/.vim/bundle"
+mkdir ~/.vim/bundle
+echo "git clone https://github.com/gmarik/Vundle.git ~/.vim/bundle/Vundle"
+git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle
 echo
 
 # Symlink everything:

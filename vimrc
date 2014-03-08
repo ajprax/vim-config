@@ -1,6 +1,29 @@
-" Load vim-pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
+" Load vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Installed/used bundles
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-eunuch'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
+Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'mikelue/vim-maven-plugin'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'tfnico/vim-gradle'
+Bundle 'mattn/webapi-vim'
+Bundle 'vim-scripts/logpad.vim'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'dln/avro-vim'
+Bundle 'dart-lang/dart-vim-plugin'
 
 " Ensure syntax highlighting is enabled
 syntax on
@@ -68,24 +91,10 @@ map <F5> :Mvn test<CR>:redr!<CR>
 map <F6> :Mvn verify<CR>:redr!<CR>
 map <F7> :Mvn install<CR>:redr!<CR>
 
-" Eclim keybindings
-nmap <C-i> :JavaImport<CR>
-nmap <C-c> :JavaCorrect<CR>
-nmap <F3> :JavaSearchContext<CR>
-if has("gui_running")
-  inoremap <C-Space> <C-x><C-u>
-else
-  inoremap <Nul> <C-x><C-u>
-endif
-
 " Markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 
 set t_Co=256
-
-" Set default splits to vertical, not horizontal.
-let g:EclimBuffersDefaultAction = 'vs'
-let g:EclimDefaultFileOpenAction = 'vs'
 
 set guifont=Ubuntu\ Mono\ 9
 
