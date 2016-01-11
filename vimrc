@@ -1,7 +1,7 @@
 " Load vundle
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle/
 call vundle#rc()
 
 " Installed/used bundles
@@ -15,7 +15,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'mikelue/vim-maven-plugin'
-Bundle 'altercation/vim-colors-solarized'
+" Bundle 'altercation/vim-colors-solarized'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tfnico/vim-gradle'
@@ -24,6 +24,8 @@ Bundle 'vim-scripts/logpad.vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'dln/avro-vim'
 Bundle 'dart-lang/dart-vim-plugin'
+
+Plugin 'rust-lang/rust.vim'
 
 " Ensure syntax highlighting is enabled
 syntax on
