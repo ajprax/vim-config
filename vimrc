@@ -2,30 +2,31 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle/
-call vundle#rc()
+call vundle#begin()
 
 " Installed/used bundles
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-eunuch'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'majutsushi/tagbar'
-Bundle 'bronson/vim-trailing-whitespace'
-Bundle 'mikelue/vim-maven-plugin'
-" Bundle 'altercation/vim-colors-solarized'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tfnico/vim-gradle'
-Bundle 'mattn/webapi-vim'
-Bundle 'vim-scripts/logpad.vim'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'dln/avro-vim'
-Bundle 'dart-lang/dart-vim-plugin'
-
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-eunuch'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'majutsushi/tagbar'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'mikelue/vim-maven-plugin'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'tfnico/vim-gradle'
+Plugin 'mattn/webapi-vim'
+Plugin 'vim-scripts/logpad.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'dln/avro-vim'
+Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'rust-lang/rust.vim'
+
+call vundle#end()
 
 " Ensure syntax highlighting is enabled
 syntax on
@@ -150,3 +151,6 @@ endfunction
 
 let pyindent_nested_paren="&sw*2"
 let pyindent_open_paren="&sw*2"
+
+" Use the Rust autoformatter when saving .rs files
+let g:rustfmt_autosave = 1
