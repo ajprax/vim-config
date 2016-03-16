@@ -4,9 +4,11 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle/
 call vundle#begin()
 
+" Let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
 " Installed/used bundles
 Plugin 'gmarik/vundle'
-
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-eunuch'
@@ -48,9 +50,15 @@ set nu
 " Display column 100
 set colorcolumn=100
 
+" Configure backspace
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
 " Search settings
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
 
 " Enable mouse support in terminal (the 'a' stands for enable mouse in all
 " modes
